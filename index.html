@@ -1,39 +1,130 @@
-<!-- This is an html page for the 12:30 section of JNL221.
-This page will be used at times for explaining homework instructions
-or displaying student work. -->
+<!-- Complete this worksheet in html and css. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on html tags and css. -->
+<!-- You may work with a partner on this. -->
 
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>JNL221, Spring 2022</title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="../index.css" />
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+        
+        p {
+            color: #A9A9A9;
+            font-size: 16px;
+            font-family: 'Open Sans', serif;
+            width: 50%;
+        }
 
-<!-- DO NOT EDIT ANYTHING IN THE HEAD TAG ^ -->
+        #bargraph {
+            border: 1px solid gray;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            width: 25%;
+        }
+        .bar_label {
+            color: red;
+        }
+        #longest {
+            width: 300px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+        #longer {
+        }
+        #long {
+        }
 
-<body>
-	
-	<!-- Intro row -->
-	<div id="intro" class="col-sm-12">
-		<h1> <!-- /// EDITABLE ONE /// --> Foundations Of Data And Digital Journalism, 12:30p</h1>
-		<h4> <!-- /// EDITABLE TWO /// --> John Perik</h4>
-	</div>
+        </style>
+    </head>
+    
+    <body>
 
-	<div class="container content">
-		<p> <!-- /// EDITABLE THREE /// --> Content for John Perik, a sophomore at Syracuse University</p>
-	</div>
+    <h1>A little bit about me!</h1>
+    
+    <h2>My intro</h2>
+    <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. --> 
+    <!-- Tags to use: <p>, <strong>, <i> -->
+        <p>Hi, <y name is John Perik <i>I'm from Jamestown Rhode Island</i>I love fishing, baseball, golf and football<strong>I want to go into broadcasting and be a journalist</strong>.</p>
+    
+
+    <h2>My handles</h2>
+    <!-- Include: at least two handles for your social media accounts -->
+    <!-- Tags to use: <p>, <a> -->
+        <p> My social media handles are <a href="https://www.twitter.com/johnperiktv" and <a href="https://www.instagram.com/johnperiktv/?hl=en"j
+
+    
+    <h2> ~ Challenge: Why is my text maroon? ~</h2>
+    <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) -->
+    <p> p tags are given the style maroon as the color, I changed it to A9A9A9
+
+    <h2>My favorite meme</h2>
+    <!-- Include: a screenshot of an internet meme that you like -->
+    <!-- Tags to use: <img> -->
+    <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+    <img src="MEME.jpeg" alt="The photo is a golf meme" height="300px" width="400px">
+    
+    <h2>Why I'm a great student</h2>
+    <!-- Include: an unordered list -->
+    <!-- Tags to use: <ul>, <li>, <strong> -->
+        <li> I spend a lot of time doing work
+        <li> I am passionate about what I study
+        <li> I am willing to go above and beyond
+        <li> I enjoy reading
+    <ul>
+
+    
+    <h2>Top 3 most famous people from my hometown</h2>
+    <!-- Include: an ordered list -->
+    <!-- Tags to use: <ol>, <li>, <a> -->
+    <h3> Famous People From Rhode Island
+    <ol> 
+        <li><a href="https://en.wikipedia.org/wiki/George_M._Cohan"
+        <li><a href="https://en.wikipedia.org/wiki/Cormac_McCarthy"
+        <li><a href="https://en.wikipedia.org/wiki/David_Hedison" 
+    </ol>
 
 
-  	<!-- About Row -->
-	<div class="row">
-		<div id="end" class="col-sm-12">
-			<h4> <!-- /// EDITABLE FOUR /// --> made by github pages with montserrat and open sans, at newhouse school of communications</h4>
-		</div>
-	</div>
+    <h2> ~ Challenge: Read my poetry ~</h2>
+    <!-- Challenge! Figure out what a <br> tag is. Write a short poem about your college experience so far, using only one <p> tag and at least two <br> tags. -->
+    <p> A br tag makes a break in the middle of the text. <p>
+    <p> As the world turns<br> We at Syracuse turn with it <br> As the seasons change <br> We at Syracuse change with them </p>
+    
+    <h2>This is one of my favorite quotes</h2>
+    <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+    <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+    <h3> A Golfer's Life, Arnold Palmer </h3>
+    <p id="book">"Golf is deceptively simple and endlessly complicated; it satisfies the soul and frustrates the intellect. It is at the same time rewarding and maddening - and it is without a doubt the greatest game mankind has ever invented." </p>
 
-</body>
+
+    <h2>These are more of my favorite books</h2>
+    <!-- Include: an unordered list of at least three books, list items should have a border -->
+    <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+    <ul>
+    <li class=books>The Great Gatsby, F. Scott Fitzgerald </li>
+    <li class=books>Paradise Lost, John Milton
+    <Li class=books>Hamlet, William Shakespeare
+    </ul>
+
+
+
+
+    <h3>~ Challenge: A very simple bar graph ~</h3>
+    <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+    <div id="bargraph">
+        <h4>Gender of People Who Go to Schine</h4>
+        <p class="bar_label">Male</p>
+        <div id="longest"></div>
+        <p class="bar_label">Female</p>
+        <div id="longer"></div>
+        <p class="bar_label">Other</p>
+        <div id="long"></div>
+    </div>
+     
+    </body>
 </html>
+
+
